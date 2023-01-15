@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".Calculate_GST">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price :-  "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/etinclud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:inputType="number"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GST Rate :-  "
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+       <Spinner
+           android:id="@+id/gstspinner"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btninclud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reasult"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"/>
+
+</LinearLayout>

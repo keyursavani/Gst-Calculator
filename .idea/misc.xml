@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/keyur project/Android/GSTCalculator/app/src/main/res/layout/activity_calculate_gst.xml" value="0.22826086956521738" />
+        <entry key="..\:/keyur project/Android/GSTCalculator/app/src/main/res/layout/activity_gst_reasult.xml" value="0.22826086956521738" />
+        <entry key="..\:/keyur project/Android/GSTCalculator/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_calculate_gst.xml" value="0.1921875" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_excluding_gst.xml" value="0.1921875" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_excluding_gst_reasult.xml" value="0.178125" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_gst_reasult.xml" value="0.1921875" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_including_gst.xml" value="0.1921875" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_including_gst_reasult.xml" value="0.1921875" />
+        <entry key="..\:/keyur/Android/GSTCalculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

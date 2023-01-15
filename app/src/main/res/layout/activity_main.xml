@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select An Option"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+       android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/including"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Including GST"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/excluding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excluding GST"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/design_default_color_secondary_variant"/>
+
+
+</LinearLayout>
